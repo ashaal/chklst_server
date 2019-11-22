@@ -1,0 +1,14 @@
+uuid: 1bf86d3d-ec8c-4f44-8f5d-409815314ab0
+name: chklst-server
+mail: aviv@3paces.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
