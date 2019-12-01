@@ -1,0 +1,28 @@
+uuid: 17e61c3c-1a3e-4b6d-b3e6-604b407bc85a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shft_lists
+    - node.type.lst
+    - node.type.shft
+id: node.shft.field_shft_lists
+field_name: field_shft_lists
+entity_type: node
+bundle: shft
+label: Lists
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      lst: lst
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

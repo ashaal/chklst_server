@@ -1,0 +1,17 @@
+uuid: 6d73193a-d0ce-4455-a0c1-b6fe6f737950
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Shift
+type: shft
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

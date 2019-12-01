@@ -1,0 +1,20 @@
+uuid: 3739863b-d660-4d90-88ad-f0306104d389
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.tlst
+  module:
+    - user
+id: node.tlst.teaser
+targetEntityType: node
+bundle: tlst
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

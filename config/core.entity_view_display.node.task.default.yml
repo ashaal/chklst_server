@@ -1,0 +1,28 @@
+uuid: 34a31514-dee1-4a05-bbad-2764c34b1f13
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.task.field_tsk_dscr
+    - node.type.task
+  module:
+    - text
+    - user
+id: node.task.default
+targetEntityType: node
+bundle: task
+mode: default
+content:
+  field_tsk_dscr:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

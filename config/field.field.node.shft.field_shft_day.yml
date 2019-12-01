@@ -1,0 +1,23 @@
+uuid: 5f6ca8e9-1efa-4fb2-bbd3-ba69413f4964
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shft_day
+    - node.type.shft
+id: node.shft.field_shft_day
+field_name: field_shft_day
+entity_type: node
+bundle: shft
+label: Day
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 6
+  prefix: ''
+  suffix: ''
+field_type: integer

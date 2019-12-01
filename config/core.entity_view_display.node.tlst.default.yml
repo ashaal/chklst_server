@@ -1,0 +1,46 @@
+uuid: ff57226a-a648-46c2-b947-08969a87255c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tlst.field_ctgry
+    - field.field.node.tlst.field_tlst_dscr
+    - field.field.node.tlst.field_tlst_tsks
+    - node.type.tlst
+  module:
+    - text
+    - user
+id: node.tlst.default
+targetEntityType: node
+bundle: tlst
+mode: default
+content:
+  field_ctgry:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tlst_dscr:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tlst_tsks:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

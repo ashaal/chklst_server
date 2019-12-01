@@ -1,0 +1,23 @@
+uuid: 02a698d5-23cd-4ff4-b984-7d5c15536d99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lst_strt
+    - node.type.lst
+id: node.lst.field_lst_strt
+field_name: field_lst_strt
+entity_type: node
+bundle: lst
+label: 'Start at'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

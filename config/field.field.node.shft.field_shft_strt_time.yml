@@ -1,0 +1,21 @@
+uuid: af952f07-b491-4d4d-acad-ff6dacf872e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shft_strt_time
+    - node.type.shft
+  module:
+    - time_field
+id: node.shft.field_shft_strt_time
+field_name: field_shft_strt_time
+entity_type: node
+bundle: shft
+label: 'Start time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: time

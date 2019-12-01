@@ -1,0 +1,20 @@
+uuid: 280e9935-91ce-46c5-befd-643b47659839
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.shft
+  module:
+    - user
+id: node.shft.teaser
+targetEntityType: node
+bundle: shft
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

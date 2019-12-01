@@ -1,0 +1,23 @@
+uuid: f36ff91b-52ea-45af-855e-d75f7c5c40b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shft_du
+    - node.type.shft
+id: node.shft.field_shft_du
+field_name: field_shft_du
+entity_type: node
+bundle: shft
+label: Duration
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

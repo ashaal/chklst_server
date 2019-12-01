@@ -1,0 +1,23 @@
+uuid: 343f8327-5e79-44c3-8233-b0fdac4d5fcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lst_end
+    - node.type.lst
+id: node.lst.field_lst_end
+field_name: field_lst_end
+entity_type: node
+bundle: lst
+label: 'Ends at'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

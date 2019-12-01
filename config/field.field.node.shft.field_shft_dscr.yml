@@ -1,0 +1,21 @@
+uuid: 35ff3898-a7df-4085-832a-6a86e38d3662
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shft_dscr
+    - node.type.shft
+  module:
+    - text
+id: node.shft.field_shft_dscr
+field_name: field_shft_dscr
+entity_type: node
+bundle: shft
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

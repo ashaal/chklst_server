@@ -1,0 +1,69 @@
+uuid: 2cf047c3-b5b9-486d-9334-f89990af5009
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.shft.field_shft_day
+    - field.field.node.shft.field_shft_dscr
+    - field.field.node.shft.field_shft_du
+    - field.field.node.shft.field_shft_lists
+    - field.field.node.shft.field_shft_strt_time
+    - node.type.shft
+  module:
+    - text
+    - time_field
+    - user
+id: node.shft.default
+targetEntityType: node
+bundle: shft
+mode: default
+content:
+  field_shft_day:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_shft_dscr:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_shft_du:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_shft_lists:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_shft_strt_time:
+    weight: 103
+    label: above
+    settings:
+      time_format: 'h:i a'
+    third_party_settings: {  }
+    type: time_formatter
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

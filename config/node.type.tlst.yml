@@ -1,0 +1,18 @@
+uuid: a835f106-8c87-4864-b864-4a9a7d8fd27f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Task list'
+type: tlst
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

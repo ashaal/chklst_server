@@ -1,0 +1,19 @@
+uuid: 0030c5e3-720b-4c6a-952e-a164ad4ee756
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ctgry
+    - node.type.tlst
+id: node.tlst.field_ctgry
+field_name: field_ctgry
+entity_type: node
+bundle: tlst
+label: Category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
