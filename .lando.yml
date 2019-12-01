@@ -1,0 +1,6 @@
+name: chklst-server
+recipe: pantheon
+config:
+  framework: drupal8
+  site: chklst-server
+  id: ea253079-7b29-4c53-9847-0aeec091c2c3
