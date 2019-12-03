@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "95dcb45f56aa54319a2763a077a53079",
+    "content-hash": "f643e0782c7f7d030dd525f925b4d00a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -8519,16 +8519,16 @@
         },
         {
             "name": "genesis/behat-fail-aid",
-            "version": "2.3.5",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/forceedge01/behat-fail-aid.git",
-                "reference": "31aa64ea25f1b69b2001442f590c0c618f3ec4d4"
+                "reference": "775f5df682974351de3d923ce3e7db3dc67bdd0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/forceedge01/behat-fail-aid/zipball/31aa64ea25f1b69b2001442f590c0c618f3ec4d4",
-                "reference": "31aa64ea25f1b69b2001442f590c0c618f3ec4d4",
+                "url": "https://api.github.com/repos/forceedge01/behat-fail-aid/zipball/775f5df682974351de3d923ce3e7db3dc67bdd0d",
+                "reference": "775f5df682974351de3d923ce3e7db3dc67bdd0d",
                 "shasum": ""
             },
             "require": {
@@ -8568,7 +8568,7 @@
                 "error",
                 "fail"
             ],
-            "time": "2019-10-03T16:34:11+00:00"
+            "time": "2019-12-02T16:48:57+00:00"
         },
         {
             "name": "instaclick/php-webdriver",
@@ -9903,7 +9903,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "stability-flags": {
         "drupal/coffee": 10,
         "drupal/group": 5
