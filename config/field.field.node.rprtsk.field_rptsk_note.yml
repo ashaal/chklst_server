@@ -1,0 +1,19 @@
+uuid: 3e6920a1-49a1-43d5-a71e-3385b7c8c96c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rptsk_note
+    - node.type.rprtsk
+id: node.rprtsk.field_rptsk_note
+field_name: field_rptsk_note
+entity_type: node
+bundle: rprtsk
+label: Note
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

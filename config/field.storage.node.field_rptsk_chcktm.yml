@@ -1,0 +1,20 @@
+uuid: 63192c2e-15cb-4ce3-844f-40be7f5d2ac5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_rptsk_chcktm
+field_name: field_rptsk_chcktm
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

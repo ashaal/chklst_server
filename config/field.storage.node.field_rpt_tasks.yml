@@ -1,0 +1,19 @@
+uuid: 5cc9a808-425b-4d7d-8140-4e699a248e26
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_rpt_tasks
+field_name: field_rpt_tasks
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

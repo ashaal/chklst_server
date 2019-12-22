@@ -1,0 +1,54 @@
+uuid: 00eb0a52-9d00-400d-bbb3-ae4c26f61986
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.restaurant
+id: restaurant-member
+label: Member
+weight: -100
+internal: true
+audience: member
+group_type: restaurant
+permissions_ui: true
+permissions:
+  - 'create group_node:lst entity'
+  - 'create group_node:rprtsk content'
+  - 'create group_node:rprtsk entity'
+  - 'create group_node:rpt content'
+  - 'create group_node:rpt entity'
+  - 'create group_node:shft content'
+  - 'create group_node:shft entity'
+  - 'create group_node:task content'
+  - 'create group_node:task entity'
+  - 'create group_node:tlst content'
+  - 'create group_node:tlst entity'
+  - 'delete any group_node:rprtsk entity'
+  - 'delete any group_node:rpt entity'
+  - 'delete any group_node:shft entity'
+  - 'delete any group_node:task entity'
+  - 'delete any group_node:tlst entity'
+  - 'delete own group_node:rprtsk entity'
+  - 'delete own group_node:rpt entity'
+  - 'delete own group_node:shft entity'
+  - 'delete own group_node:task entity'
+  - 'delete own group_node:tlst entity'
+  - 'update any group_node:lst entity'
+  - 'update any group_node:rprtsk entity'
+  - 'update any group_node:rpt entity'
+  - 'update any group_node:shft entity'
+  - 'update any group_node:task entity'
+  - 'update any group_node:tlst entity'
+  - 'update own group_node:rprtsk entity'
+  - 'update own group_node:rpt entity'
+  - 'update own group_node:shft entity'
+  - 'update own group_node:task entity'
+  - 'update own group_node:tlst entity'
+  - 'view group_node:rprtsk entity'
+  - 'view group_node:rpt entity'
+  - 'view group_node:shft entity'
+  - 'view group_node:task entity'
+  - 'view group_node:tlst entity'
+  - 'view unpublished group_node:rpt entity'
+  - 'view unpublished group_node:shft entity'
+  - 'view unpublished group_node:tlst entity'

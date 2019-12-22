@@ -1,0 +1,22 @@
+uuid: 8b2850e4-0f92-4721-bb11-dd822bf62e97
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.rpt
+id: node.rpt.promote
+field_name: promote
+entity_type: node
+bundle: rpt
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

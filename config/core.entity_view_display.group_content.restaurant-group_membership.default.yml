@@ -1,0 +1,23 @@
+uuid: 258d4b12-79d5-4cda-9d4d-dd66491b44fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_content.restaurant-group_membership.group_roles
+    - group.content_type.restaurant-group_membership
+id: group_content.restaurant-group_membership.default
+targetEntityType: group_content
+bundle: restaurant-group_membership
+mode: default
+content:
+  group_roles:
+    label: above
+    type: entity_reference_label
+    settings:
+      link: false
+    weight: -4
+    third_party_settings: {  }
+    region: content
+hidden:
+  entity_id: true
+  uid: true

@@ -1,0 +1,23 @@
+uuid: fd410aa3-d4b4-4476-99ce-19a728694e20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rptsk_stts
+    - node.type.rprtsk
+id: node.rprtsk.field_rptsk_stts
+field_name: field_rptsk_stts
+entity_type: node
+bundle: rprtsk
+label: Status
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

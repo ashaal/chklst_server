@@ -1,0 +1,23 @@
+uuid: 27416ec4-146b-4e15-9be8-ffb9bc301d7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rptsk_end
+    - node.type.rprtsk
+id: node.rprtsk.field_rptsk_end
+field_name: field_rptsk_end
+entity_type: node
+bundle: rprtsk
+label: 'End at'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

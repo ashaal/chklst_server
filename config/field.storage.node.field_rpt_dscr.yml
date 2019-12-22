@@ -1,0 +1,19 @@
+uuid: 7d924d4d-cde8-444f-b572-d98226d5e4c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_rpt_dscr
+field_name: field_rpt_dscr
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

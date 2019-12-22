@@ -1,0 +1,77 @@
+uuid: d724cfcd-9a62-4eb9-a752-7fdf11c27d97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.rpt.field_rpt_closed
+    - field.field.node.rpt.field_rpt_created
+    - field.field.node.rpt.field_rpt_dscr
+    - field.field.node.rpt.field_rpt_isclose
+    - field.field.node.rpt.field_rpt_tasks
+    - field.field.node.rpt.field_rpt_tmplshftid
+    - node.type.rpt
+  module:
+    - text
+    - user
+id: node.rpt.default
+targetEntityType: node
+bundle: rpt
+mode: default
+content:
+  field_rpt_closed:
+    weight: 105
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_rpt_created:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_rpt_dscr:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_rpt_isclose:
+    weight: 106
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_rpt_tasks:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_rpt_tmplshftid:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

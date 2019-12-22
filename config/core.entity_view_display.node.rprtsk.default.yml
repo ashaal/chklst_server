@@ -1,0 +1,102 @@
+uuid: c0369bdc-0eb2-4278-9fb4-fa1947dec6ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.rprtsk.field_rptsk_chcktm
+    - field.field.node.rprtsk.field_rptsk_chkby
+    - field.field.node.rprtsk.field_rptsk_cmnt
+    - field.field.node.rprtsk.field_rptsk_ctgry
+    - field.field.node.rprtsk.field_rptsk_dscr
+    - field.field.node.rprtsk.field_rptsk_end
+    - field.field.node.rprtsk.field_rptsk_note
+    - field.field.node.rprtsk.field_rptsk_strt
+    - field.field.node.rprtsk.field_rptsk_stts
+    - node.type.rprtsk
+  module:
+    - text
+    - user
+id: node.rprtsk.default
+targetEntityType: node
+bundle: rprtsk
+mode: default
+content:
+  field_rptsk_chcktm:
+    weight: 107
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_rptsk_chkby:
+    weight: 108
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_rptsk_cmnt:
+    weight: 109
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_rptsk_ctgry:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_rptsk_dscr:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_rptsk_end:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_rptsk_note:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_rptsk_strt:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_rptsk_stts:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

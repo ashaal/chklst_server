@@ -1,0 +1,10 @@
+uuid: 01597fbb-757b-43ce-b728-14589fa4929a
+langcode: en
+status: true
+dependencies: {  }
+id: restaurant
+label: Restaurant
+description: ''
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }

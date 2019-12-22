@@ -17,4 +17,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_lst_end: true
+  field_lst_strt: true

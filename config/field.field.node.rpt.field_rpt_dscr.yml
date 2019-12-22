@@ -1,0 +1,21 @@
+uuid: 1a1535b5-504e-4481-bea3-28c8643d543b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rpt_dscr
+    - node.type.rpt
+  module:
+    - text
+id: node.rpt.field_rpt_dscr
+field_name: field_rpt_dscr
+entity_type: node
+bundle: rpt
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

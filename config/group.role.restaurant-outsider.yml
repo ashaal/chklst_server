@@ -1,0 +1,14 @@
+uuid: 16b3c8a3-09d0-4088-87b2-cc56ade72223
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.restaurant
+id: restaurant-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: restaurant
+permissions_ui: true
+permissions: {  }

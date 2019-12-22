@@ -1,0 +1,19 @@
+uuid: f1b03908-fe09-46bf-902c-180f22c9a768
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.restaurant
+    - node.type.rpt
+  module:
+    - gnode
+    - node
+id: restaurant-group_node-rpt
+label: 'Restaurant: Group node (Report)'
+description: 'Adds <em class="placeholder">Report</em> content to groups both publicly and privately.'
+group_type: restaurant
+content_plugin: 'group_node:rpt'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

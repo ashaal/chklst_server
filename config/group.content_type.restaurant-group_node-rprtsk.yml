@@ -1,0 +1,19 @@
+uuid: 530ec49e-b906-4d2c-9c23-cf110e895cee
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.restaurant
+    - node.type.rprtsk
+  module:
+    - gnode
+    - node
+id: restaurant-group_node-rprtsk
+label: 'Restaurant: Group node (ReportTask)'
+description: 'Adds <em class="placeholder">ReportTask</em> content to groups both publicly and privately.'
+group_type: restaurant
+content_plugin: 'group_node:rprtsk'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

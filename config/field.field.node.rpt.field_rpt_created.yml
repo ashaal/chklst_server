@@ -1,0 +1,23 @@
+uuid: c7f6ecba-5b02-4f21-98d2-9587e5a0ce04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rpt_created
+    - node.type.rpt
+id: node.rpt.field_rpt_created
+field_name: field_rpt_created
+entity_type: node
+bundle: rpt
+label: timeCreated
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

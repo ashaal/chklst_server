@@ -1,0 +1,22 @@
+uuid: e3474a13-df0d-448f-b4b8-c93872753111
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.rprtsk
+id: node.rprtsk.promote
+field_name: promote
+entity_type: node
+bundle: rprtsk
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

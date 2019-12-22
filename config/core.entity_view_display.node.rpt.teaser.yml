@@ -1,15 +1,16 @@
-uuid: 3739863b-d660-4d90-88ad-f0306104d389
+uuid: ed155965-efca-4539-9aee-290eda1feedc
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.tlst
+    - field.field.node.rpt.field_rpt_dscr
+    - node.type.rpt
   module:
     - user
-id: node.tlst.teaser
+id: node.rpt.teaser
 targetEntityType: node
-bundle: tlst
+bundle: rpt
 mode: teaser
 content:
   links:
@@ -18,6 +19,4 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
-  field_ctgry: true
-  field_tlst_dscr: true
-  field_tlst_tsks: true
+  field_rpt_dscr: true

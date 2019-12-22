@@ -1,0 +1,19 @@
+uuid: 9b612ddd-8ac7-4d47-af01-31cc6e734367
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rpt_tmplshftid
+    - node.type.rpt
+id: node.rpt.field_rpt_tmplshftid
+field_name: field_rpt_tmplshftid
+entity_type: node
+bundle: rpt
+label: 'Template Shift Id'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

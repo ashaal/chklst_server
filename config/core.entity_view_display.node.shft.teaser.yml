@@ -17,4 +17,9 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_shft_day: true
+  field_shft_dscr: true
+  field_shft_du: true
+  field_shft_lists: true
+  field_shft_strt_time: true

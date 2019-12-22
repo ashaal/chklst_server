@@ -1,0 +1,23 @@
+uuid: b9854c7f-c27c-4c5e-94b6-eda2d3f1abbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rpt_closed
+    - node.type.rpt
+id: node.rpt.field_rpt_closed
+field_name: field_rpt_closed
+entity_type: node
+bundle: rpt
+label: 'Time Closed'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,19 @@
+uuid: 07c31416-7eff-400b-b1ed-2fe1b21dbbde
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.restaurant
+    - node.type.tlst
+  module:
+    - gnode
+    - node
+id: restaurant-group_node-tlst
+label: 'Restaurant: Group node (Task list)'
+description: 'Adds <em class="placeholder">Task list</em> content to groups both publicly and privately.'
+group_type: restaurant
+content_plugin: 'group_node:tlst'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

@@ -1,0 +1,19 @@
+uuid: 78bb8dd9-0ef5-47c0-bb53-9138087c22a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rptsk_cmnt
+    - node.type.rprtsk
+id: node.rprtsk.field_rptsk_cmnt
+field_name: field_rptsk_cmnt
+entity_type: node
+bundle: rprtsk
+label: Comment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

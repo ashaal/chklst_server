@@ -1,0 +1,23 @@
+uuid: 9903ebb5-d960-4d5f-8e17-04518db9a4bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rpt_isclose
+    - node.type.rpt
+id: node.rpt.field_rpt_isclose
+field_name: field_rpt_isclose
+entity_type: node
+bundle: rpt
+label: Closed
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: '1'
+  off_label: '0'
+field_type: boolean

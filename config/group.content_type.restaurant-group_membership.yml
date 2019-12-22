@@ -1,0 +1,17 @@
+uuid: 59006b1f-eaec-4d53-9820-894bf24a0c9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.restaurant
+  module:
+    - user
+id: restaurant-group_membership
+label: 'Restaurant: Group membership'
+description: 'Adds users to groups as members.'
+group_type: restaurant
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

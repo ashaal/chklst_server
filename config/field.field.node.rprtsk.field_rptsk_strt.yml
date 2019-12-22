@@ -1,0 +1,23 @@
+uuid: e41cc593-673d-4008-af1b-a935d234b92e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rptsk_strt
+    - node.type.rprtsk
+id: node.rprtsk.field_rptsk_strt
+field_name: field_rptsk_strt
+entity_type: node
+bundle: rprtsk
+label: 'Start At'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,15 +1,15 @@
-uuid: 3739863b-d660-4d90-88ad-f0306104d389
+uuid: 1c840971-369e-44c8-ad3e-ad850d938462
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.tlst
+    - node.type.rprtsk
   module:
     - user
-id: node.tlst.teaser
+id: node.rprtsk.teaser
 targetEntityType: node
-bundle: tlst
+bundle: rprtsk
 mode: teaser
 content:
   links:
@@ -17,7 +17,4 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden:
-  field_ctgry: true
-  field_tlst_dscr: true
-  field_tlst_tsks: true
+hidden: {  }

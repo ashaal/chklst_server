@@ -1,0 +1,28 @@
+uuid: 5a4cc96a-3186-48f0-abd5-40efddd30392
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rpt_tasks
+    - node.type.rprtsk
+    - node.type.rpt
+id: node.rpt.field_rpt_tasks
+field_name: field_rpt_tasks
+entity_type: node
+bundle: rpt
+label: Tasks
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      rprtsk: rprtsk
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

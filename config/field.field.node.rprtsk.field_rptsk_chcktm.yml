@@ -1,0 +1,23 @@
+uuid: 53ac684c-abef-4bfa-8c38-b0ca8bf4cbfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rptsk_chcktm
+    - node.type.rprtsk
+id: node.rprtsk.field_rptsk_chcktm
+field_name: field_rptsk_chcktm
+entity_type: node
+bundle: rprtsk
+label: 'Checked Time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
